@@ -1,0 +1,13 @@
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\DownLoad.pdb
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.csprojResolveAssemblyReference.cache
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.Form1.resources
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.Properties.Resources.resources
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.csproj.GenerateResource.Cache
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.pdb
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\Newtonsoft.Json.dll
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\DownLoad.dll
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\DownLoad.dll.config
+E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\DownLoad.dll
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\System.Net.Http.dll
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\System.Net.Http.xml
+E:\自定义项目\Download\DownLoad\DownLoad\bin\Debug\zh-Hans\System.Net.Http.resources.dll
