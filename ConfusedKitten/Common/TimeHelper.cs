@@ -3,6 +3,9 @@ using System.Globalization;
 
 namespace ConfusedKitten.Common
 {
+    /// <summary>
+    ///  时间类
+    /// </summary>
     public static class TimeHelper
     {
         /// <summary>
