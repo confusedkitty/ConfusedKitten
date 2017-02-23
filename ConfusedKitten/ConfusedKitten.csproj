@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{29684A9E-7FA2-4BEC-876D-BC2375908BA2}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConfusedKitten</RootNamespace>
     <AssemblyName>ConfusedKitten</AssemblyName>
@@ -42,8 +42,10 @@
       <HintPath>..\..\..\..\项目\HotelCache\QunarSpider\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Common\DeviceInfoHelper.cs" />
     <Compile Include="Common\ImageHelper.cs" />
+    <Compile Include="Common\ProjectHelper.cs" />
     <Compile Include="Common\TimeHelper.cs" />
     <Compile Include="Common\XmlHelper.cs" />
     <Compile Include="Down\Download.cs" />

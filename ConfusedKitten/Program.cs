@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using ConfusedKitten.Common;
 
 namespace ConfusedKitten
 {
@@ -11,6 +12,7 @@ namespace ConfusedKitten
         [STAThread]
         static void Main()
         {
+            ProjectHelper.ProjectDirectory();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

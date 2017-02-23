@@ -10,8 +10,6 @@ E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\ConfusedKitten.csproj.Ge
 E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\ConfusedKitten.dll
 E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\ConfusedKitten.pdb
 E:\自定义项目\Download\DownLoad\DownLoad\obj\Debug\ConfusedKitten.Form1.resources
-E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.dll.config
-E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.dll
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.pdb
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\Newtonsoft.Json.dll
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\System.Net.Http.dll
@@ -21,5 +19,7 @@ E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\Confus
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.Form1.resources
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.Properties.Resources.resources
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.csproj.GenerateResource.Cache
-E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.dll
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.pdb
+E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.exe.config
+E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.exe
+E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.exe
