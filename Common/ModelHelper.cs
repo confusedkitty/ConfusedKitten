@@ -6,7 +6,7 @@ namespace ConfusedKitten.Common
     public static class ModelHelper
     {
         /// <summary>
-        ///  将实体A的属性赋值给实体B （属性相同赋值，属性不区分大小写）
+        ///  将实体A的属性赋值给实体B（属性相同赋值，属性不区分大小写）
         /// </summary>
         /// <typeparam name="T1">类型（数据源）</typeparam>
         /// <typeparam name="T2">类型（赋值实体）</typeparam>
