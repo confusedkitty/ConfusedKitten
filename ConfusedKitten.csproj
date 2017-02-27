@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Common\DeviceInfoHelper.cs" />
     <Compile Include="Common\ImageHelper.cs" />
+    <Compile Include="Common\Md5Helper.cs" />
     <Compile Include="Common\ModelHelper.cs" />
     <Compile Include="Common\ProjectHelper.cs" />
     <Compile Include="Common\TimeHelper.cs" />

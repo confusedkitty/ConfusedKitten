@@ -22,3 +22,4 @@ E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\Confus
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.dll.config
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\bin\Debug\ConfusedKitten.dll
 E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.dll
+E:\自定义项目\ConfusedKitten\ConfusedKitten\ConfusedKitten\obj\Debug\ConfusedKitten.csprojResolveAssemblyReference.cache
