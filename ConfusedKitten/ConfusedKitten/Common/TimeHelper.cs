@@ -129,47 +129,5 @@ namespace ConfusedKitten.Common
                 return DateTime.MinValue;
             }
         }
-
-        /// <summary>
-        ///  根据日期获取星期
-        /// </summary>
-        /// <param name="dt">日期</param>
-        /// <param name="languageFlag">语言区分 true中文 false 英文</param>
-        /// <returns></returns>
-        public static string TimeToWeek(DateTime dt, bool languageFlag = true)
-        {
-            string weekstr = dt.DayOfWeek.ToString();
-            if (languageFlag)
-            {
-                switch (weekstr)
-                {
-                    case "Monday":
-                        weekstr = "星期一";
-                        break;
-                    case "Tuesday":
-                        weekstr = "星期二";
-                        break;
-                    case "Wednesday":
-                        weekstr = "星期三";
-                        break;
-                    case "Thursday":
-                        weekstr = "星期四";
-                        break;
-                    case "Friday":
-                        weekstr = "星期五";
-                        break;
-                    case "Saturday":
-                        weekstr = "星期六";
-                        break;
-                    case "Sunday":
-                        weekstr = "星期日";
-                        break;
-                    default:
-                        weekstr = "";
-                        break;
-                }
-            }
-            return weekstr;
-        }
     }
 }

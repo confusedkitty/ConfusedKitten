@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using ConfusedKitten.Common;
+using ConfusedKitten.DataBase;
+using ConfusedKitten.Model;
+using ConfusedKitten.MyWebRequest;
 
 namespace ConfusedKitten
 {
@@ -13,20 +16,29 @@ namespace ConfusedKitten
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ////Download.ResumeDownloadFile(@"E:\项目文档\酒店文档\艺龙\酒店静态文件\", @"http://api.elongstatic.com/xml/v2.0/hotel/hotellist.xml");
-            ////Download.DownloadFile(@"E:\项目文档\酒店文档\艺龙\酒店静态文件\", @"http://api.elongstatic.com/xml/v2.0/hotel/hotellist.xml");
-            ////Download.DownloadFile(@"E:\项目文档\酒店文档\艺龙\酒店静态文件\", @"http://api.elongstatic.com/xml/v2.0/hotel/cn/15/90594615.xml");
-            ////       Download.DownloadGip(@"E:\项目文档\酒店文档\艺龙\酒店静态文件\", @"http://api.elongstatic.com/xml/v2.0/hotel/geo_cn.xml");
+            BaseEntity baseEntity = new BaseEntity
+            {
+                ClassName = "MainorderCommon",
+                ClassAuthor = "王越",
+                ClassExplain = "主订单_综合订单",
+                NameSpace = "test"
+            };
+            string path = ProjectHelper.ProjectDirectory() + "\\MainorderCommon.cs";
+            DbToEntity.CreateEntity(path, baseEntity, "tmc_mainorder_common");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //var a=     Dao.Create("Database=test_hotel;Data Source=localhost;port=3306;User Id=sa;Password=123456;Charset=utf8;Connect Timeout=6000;");
+            var a = Dao.Create("Database=tmc3db;Data Source=192.168.2.15;port=3306;User Id=tmc3;Password=88691111;Charset=utf8;Connect Timeout=6000;");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string test = "02/13/2017 10:56:00";
-            DateTime dt = TimeHelper.MdyConvert(test);
+            string data = "TimeStamp=1489634122&Sign=FE29D133-468D-403B-8428-0168C968CAC1&PlatformId=24&ProductId=23&username=cstest001&NewKey=5017faddc612d036fe55e099a9d7ccbf";
+            string url = "http://localhost:22421/User/useraccountdetail?" + data;
+            string a = RequestMethod.PostMethod(url, "");
+            RequestMethod.GetMethod(url);
         }
     }
 }
