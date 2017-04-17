@@ -22,7 +22,7 @@ namespace ConfusedKitten.Model
             foreach (PropertyInfo property in properties)
             {
                 #region 验证
-                 
+
                 validateResult = string.Empty;
                 //获取验证特性
                 object[] validateContent = property.GetCustomAttributes(typeof(ValidateAttribute), true);

@@ -55,14 +55,15 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bin\Debug\MainorderCommon.cs" />
     <Compile Include="Common\DbToEntity.cs" />
     <Compile Include="Common\DeviceInfoHelper.cs" />
     <Compile Include="Common\ImageHelper.cs" />
+    <Compile Include="Common\LogHelper.cs" />
     <Compile Include="Common\Md5Helper.cs" />
     <Compile Include="Common\ModelHelper.cs" />
     <Compile Include="Common\ProjectHelper.cs" />
@@ -98,6 +99,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\ConfusedKitten.exe.config" />
+    <None Include="bin\Debug\ConfusedKitten.vshost.exe.config" />
+    <None Include="bin\Debug\ConfusedKitten.vshost.exe.manifest" />
+    <None Include="bin\Debug\DownLoad.dll.config" />
+    <None Include="bin\Debug\DownLoad.vshost.exe.config" />
+    <None Include="bin\Debug\DownLoad.vshost.exe.manifest" />
+    <None Include="bin\Debug\url" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +118,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseInfo.xml" />
+    <Content Include="bin\Debug\BaseInfo.xml" />
+    <Content Include="bin\Debug\ConfusedKitten.exe" />
+    <Content Include="bin\Debug\ConfusedKitten.pdb" />
+    <Content Include="bin\Debug\ConfusedKitten.vshost.exe" />
+    <Content Include="bin\Debug\DownLoad.dll" />
+    <Content Include="bin\Debug\DownLoad.pdb" />
+    <Content Include="bin\Debug\DownLoad.vshost.exe" />
+    <Content Include="bin\Debug\MySql.Data.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\zh-Hans\" />
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
